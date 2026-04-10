@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 12
+names: ['apple', 'banana', 'cabbage', 'meat', 'orange', 'rotten apple', 'rotten banana', 'rotten cabbage', 'rotten meat', 'rotten orange', 'rotten spinach', 'spinach']
+
+roboflow:
+  workspace: ais-workspace-lfrky
+  project: firdge_v6
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ais-workspace-lfrky/firdge_v6/dataset/1
