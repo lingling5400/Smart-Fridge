@@ -75,6 +75,15 @@ The dataset used in this project was obtained from Roboflow, including annotated
 
 This project is partially based on the YOLO Distiller framework. It has been adapted and modified to support custom teacher-student training and experimental settings for object detection tasks in this project.
 
+## Knowledge Distillation Framework
+
+The original implementation has been modified and extended to support:
+- Custom teacher-student training pipeline
+- Integration with YOLOv11 models
+- Experimental adjustments for loss configuration and training settings
+
+---
+
 ## License
 
 This project is licensed based on the YOLO Distiller repository.
